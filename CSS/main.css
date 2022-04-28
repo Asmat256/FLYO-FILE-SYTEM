@@ -1,0 +1,297 @@
+
+*{
+    margin: 0; padding:0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    outline: none; border: none;
+    text-decoration: normal;
+    transition: all .2s linear;
+}
+
+#cap1{
+    background-image:url("/image3.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+
+}
+
+.nav ul {
+float: right;
+margin-right: 20px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+}
+.nav ul li a{
+    color: white;
+    font-size: 18;
+    border-radius:3px ;
+    padding: 7px 13px ;
+    text-transform: uppercase ;
+}
+
+a.active,a:hover{
+background: #3d1bff;
+transition: .5s;
+
+
+}
+
+li:hover{
+    color: #3d1bff;
+    transition: .5s;
+    }
+
+.Front1{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+
+.btn{
+    border: #3d1bff;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: #14ccbd;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.child1{
+   
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 160, 82);
+    padding: 50px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+
+}
+
+.child2{
+   
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 160, 82);
+    padding: 50px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+
+}
+.child3{
+  
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 160, 82);
+    padding: 50px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+
+}
+
+
+
+    
+@media (min-width: 768px){
+    .parent1{
+         display: flex;
+         width: 1400px;
+         float: left;
+         padding: auto;
+    }
+}
+
+#patimg{
+    width: 20px;
+    height: 20px;
+    float: left;
+    opacity: 2;
+
+    
+}
+
+.H4{
+    padding: 100px 100px;
+    display: flex;
+    
+}
+
+h4{
+    text-align: center;
+    padding: 20px;
+    color: white;
+   
+ 
+}
+
+.H5{
+    padding: 100px 100px;
+    display: flex;
+    
+    
+}
+
+.front2{
+    padding: 50px;
+    display: flex;
+   
+ 
+}
+
+.fronth4{
+    text-align: left;
+    padding: 100px 150px;
+   
+    
+}
+
+
+.fronttext{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer{
+    margin: 0 auto;
+    border: solid black;
+    text-align: justify;
+    color: #3d1bff;
+    position: relative;
+    background-color: #d30c58;
+
+}
+
+.footer1{
+    border: solid greenyellow;
+    padding: 20px; 
+    width: 800px;
+    top: 200px;
+    z-index: 5;
+    margin: 0 auto;
+    position: relative;
+    background-color: #00CCFF;
+    top: -40px;
+    height: 150px;
+    text-align: center;
+    
+
+}
+
+
+#footerimg{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+   
+}
+
+input{
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+}
+
+button{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+}
+
+button:hover{
+    color:aquamarine;
+    background-color:darkolivegreen;
+
+}
+
+#profileimg1{
+    border-radius: 30%;
+    width: 50px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+
+}
+
+#profileimg2{
+    width: 50px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+
+}
+
+#profileimg3{
+    width: 50px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+
+}
+
+h6{
+    text-size-adjust:50%;
+    text-align: left;
+}
+
+.footer-grids1{
+  
+    padding-right: 50px;
+    padding-left: 30px ;
+    padding-right: 200px;
+}
+
+.footer-grids2{
+    padding-right: 200px;
+ 
+   
+ 
+}
+
+.footer-grids3{
+  padding-right: 50%;
+  padding-right: 200px;
+}
+
+
+
+.footer-grids4{
+    padding-right: 50%;
+    padding-right: 200px;
+  }
+
+
+.social-media{
+    display: flex;
+    margin: 0 auto;
+    width: 50px;
+    height: 20px;
+    padding: 1px;
+}
+.All-footer{
+display: flex;
+margin: 0 auto;
+width: 2000px;
+
+}
